@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.toText, name='process_pdf'),
+    path('', views.upload_file, name='upload_pdf'),
 ]
