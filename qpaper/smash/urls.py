@@ -1,7 +1,9 @@
 from django.urls import path
 from . import views
 
+handler404 = 'smash.views.handler404'
 
 urlpatterns = [
-    path('', views.upload_file, name='upload_pdf'),
+    path('', views.upload, name='upload'),
+    
 ]
